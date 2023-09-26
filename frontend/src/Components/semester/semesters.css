@@ -1,0 +1,27 @@
+.semesters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 70%;
+  background-color: rgb(232, 226, 232);
+  position: absolute;
+  row-gap: 2rem;
+}
+
+.semesters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.semester {
+  height: 70px; 
+  width: 200px;
+  border-radius: 20px;
+  font-size: 16px;
+  border:solid rgb(204, 197, 197) 0.5px;
+}
+
